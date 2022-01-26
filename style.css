@@ -4,10 +4,13 @@ body {
     background-image: url("images/sequioa.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%;
 }
 
 .wrapper {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -15,6 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1 0 auto;
 }
 
 .logo{
@@ -48,6 +52,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex: 1 0 auto;
+    min-height: auto;
 }
 
 .profileimg img{
@@ -58,17 +64,19 @@ body {
 .intro {
     width: 500px;
     background-color: black;
+    opacity: 0.75;
+    padding: 5px 50px;
+    margin: 0px 10px;
+    border-radius: 5%;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.footer{
+    color: white;
+    font-size: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.75;
-    padding: 5px;
-    border-radius: 10%;
-}
-
-.intro p{
-    color: white;
-    font-size: 48px;
-    padding: 10px;
-    text-align: center;
 }
