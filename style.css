@@ -18,8 +18,13 @@ body {
 }
 
 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cooper Hewitt", sans-serif;
     color: white;
-    font-size: 36px;
+    font-size: 48px;
+    padding: 20px;
 }
 
 .navlist{
@@ -32,5 +37,7 @@ body {
 
 .navlist li a{
     text-decoration: none;
-    color: white;
+    color: lightgray;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
 }
