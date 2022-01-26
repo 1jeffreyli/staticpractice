@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("images/sequioa.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.header {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 36px;
+}
+
+.navlist{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
